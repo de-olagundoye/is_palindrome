@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Homemade%20Apple);
+@import url(https://fonts.googleapis.com/css?family=EB%20Garamond);
+@import url(https://fonts.googleapis.com/css?family=Loved+by+the+King);
+body {
+  font-family: 'EB Garamond', serif;
+}
+body div.container {
+  margin: 0px auto;
+  width: 800px;
+  padding-top: 10px;
+}
+body div#whiteboard {
+  position: relative;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+}
+body div#whiteboard p {
+  width: 100%;
+  font-family: 'Loved by the King';
+  font-size: 30px;
+  text-align: center;
+  color: #FAEDE8;
+  margin-top: -40px;
+  -webkit-animation: fadeInLeft 5s;
+  -moz-animation: fadeInLeft 5s;
+  -ms-animation: fadeInLeft 5s;
+  -o-animation: fadeInLeft 5s;
+  animation: fadeInLeft 5s;
+}
+body div#whiteboard canvas {
+  position: relative;
+  margin: 0 auto;
+  font-family: 'Loved by the King';
+}
+body div#by-loop,
+body div #by-filter {
+  display: inline;
+  -webkit-column-count: 1;
+  column-count: 1;
+  -webkit-column-width: 40%;
+  column-width: 40%;
+}
+body div#by-loop {
+  float: left;
+  margin-left: 25%;
+  padding-bottom: 50px;
+}
+body div#by-filter {
+  float: right;
+  margin-right: 25%;
+}
+body div#by-filter ul {
+  list-style: none;
+}
+body div.clear-div {
+  clear: both;
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-15px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@-moz-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-15px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-15px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@-ms-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-15px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@-o-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-15px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
